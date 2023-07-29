@@ -1,5 +1,11 @@
 /* styles.css */
 
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
 /* General styling */
 body {
     font-family: Arial, sans-serif;

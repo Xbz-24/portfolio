@@ -4,13 +4,17 @@ import Projects from './Projects';
 import Contact from './Contact';
 import './styles.css'
 
+import ProfilePicture from '../image0.jpg';
 const App = () => {
 
   return (
     <div>
       <Header />
       <main>
-        <About />
+        <section>
+          <img src={ProfilePicture} alt="Profile Picture" />
+          <About />
+        </section>
         <Projects />
         <Contact />
       </main>
