@@ -1,4 +1,4 @@
-# Portfolio-XBZ
+# Portfolio-xbz
 This repository contains the source code for my personal portfolio website, which showcases my web development skills, projects, and how to contact me.
 
 ## Table of Contents
