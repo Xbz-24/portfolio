@@ -1,5 +1,6 @@
 import React from 'react';
 import project1jpg from '../aca.jpg';
+import mathy from "../mandelbrot.jpeg"
 const Projects = () => {
   return (
     <div className="projects-container" id="projects">
@@ -21,7 +22,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project">
-        <img src="project-image.jpg" alt="Project" />
+        <img src={mathy} alt="Project" />
         <h3>Mathematical Plotting</h3>
         <p>Project description</p>
         <div className="project-links">
