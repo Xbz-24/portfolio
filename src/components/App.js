@@ -11,7 +11,7 @@ const App = () => {
     <div>
       <Header />
       <main>
-        <section>
+        <section className="profile-container">
           <img src={ProfilePicture} alt="Profile Picture" />
           <About />
         </section>
