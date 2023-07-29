@@ -4,52 +4,45 @@ const Projects = () => {
   return (
     <div className="projects-container" id="projects">
       <h2>Projects</h2>
-      {/* Repeat this div for each project you want to display */}
       <div className="project">
         <img src="project-image.jpg" alt="Project" />
-        <h3>Project Name</h3>
+        <h3>Chess</h3>
         <p>Project description</p>
         <div className="project-links">
           <a href="project-link">View Project</a>
         </div>
-        
-      </div>
-
-      <div className="project">
-        <img src="project-image.jpg" alt="Project" />
-        <h3>Project Name</h3>
-        <p>Project description</p>
-        <div className="project-links">
-          <a href="project-link">View Project</a>
-        </div>
-        
       </div>
       <div className="project">
         <img src="project-image.jpg" alt="Project" />
-        <h3>Project Name</h3>
+        <h3>Blog</h3>
         <p>Project description</p>
         <div className="project-links">
           <a href="project-link">View Project</a>
         </div>
-        
       </div>
       <div className="project">
         <img src="project-image.jpg" alt="Project" />
-        <h3>Project Name</h3>
+        <h3>Mathematical Plotting</h3>
         <p>Project description</p>
         <div className="project-links">
           <a href="project-link">View Project</a>
         </div>
-        
       </div>
       <div className="project">
         <img src="project-image.jpg" alt="Project" />
-        <h3>Project Name</h3>
+        <h3>Anime Site</h3>
         <p>Project description</p>
         <div className="project-links">
           <a href="project-link">View Project</a>
         </div>
-        
+      </div>
+      <div className="project">
+        <img src="project-image.jpg" alt="Project" />
+        <h3>desktop application</h3>
+        <p>using react native</p>
+        <div className="project-links">
+          <a href="project-link">View Project</a>
+        </div>
       </div>
     </div>
   );
