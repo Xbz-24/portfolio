@@ -5,8 +5,8 @@ import Contact from './Contact';
 import './styles.css'
 
 import ProfilePicture from '../image0.jpg';
-const App = () => {
 
+const App = () => {
   return (
     <div>
       <Header />
