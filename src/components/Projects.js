@@ -1,13 +1,13 @@
 import React from 'react';
-
+import project1jpg from '../aca.jpg';
 const Projects = () => {
   return (
     <div className="projects-container" id="projects">
       <h2>Projects</h2>
       <div className="project">
-        <img src="project-image.jpg" alt="Project" />
+        <img src={project1jpg} alt="aca" />
         <h3>Chess</h3>
-        <p>Project description</p>
+        <p>Webapp created in JS</p>
         <div className="project-links">
           <a href="project-link">View Project</a>
         </div>
