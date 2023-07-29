@@ -11,9 +11,15 @@ const App = () => {
     <div>
       <Header />
       <main>
-        <section className="profile-container">
-          <img src={ProfilePicture} alt="Profile Picture" />
-          <About />
+        <section className="main-content">
+          <div className="profile-container">
+            <div className="profile-picture">
+              <img src={ProfilePicture} alt="Profile Picture" />
+            </div>
+          </div>
+          <div className="about-container">
+            <About /> 
+          </div>
         </section>
         <Projects />
         <Contact />

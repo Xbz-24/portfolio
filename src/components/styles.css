@@ -1,25 +1,33 @@
-/* styles.css */
-
 .profile-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2rem;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
+
+.profile-picture {
+    width: 330px;
+    height: auto;
+    border-radius: 50%;
+}
+
 .profile-container img {
     width: 330px;
     height: auto;
     border-radius: 50%;
 }
-/* General styling */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(137, 33, 137);
+    background-color: #c617c6;
 }
 
-/* Header */
 header {
     background-color: #282c34;
     padding: 1rem;
@@ -42,22 +50,23 @@ header nav ul li a:hover {
     color: #61dafb;
 }
 
-/* About */
 .about-container {
-    text-align: center;
-    padding: 2rem;
+    text-align: left;
+    padding-left: 1.0rem;
+    margin-left: 0;
 }
 
 .about-container h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .about-container p {
     font-size: 1.2rem;
 }
 
-/* Projects */
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -99,7 +108,6 @@ header nav ul li a:hover {
     border-radius: 4px;
 }
 
-/* Contact */
 .contact-container {
     text-align: center;
     padding: 2rem;
