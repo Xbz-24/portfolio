@@ -22,7 +22,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #6b6b6b;
+    background-color: #4f3b5f;
 }
 header {
     display: flex;
@@ -47,7 +47,7 @@ header nav ul li a {
     text-align: left;
 }
 header nav ul li a:hover {
-    color: #61dafb;
+    color: #35005c;
 }
 .about-container {
     text-align: left;
@@ -102,7 +102,7 @@ header nav ul li a:hover {
 
 .project-links a {
     text-decoration: none;
-    background-color: #61dafb;
+    background-color: #1b1984;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 4px;
@@ -141,7 +141,7 @@ header nav ul li a:hover {
 }
 
 .contact-container button {
-    background-color: #61dafb;
+    background-color: #1b1984;
     color: white;
     padding: 0.5rem 1rem;
     font-size: 1rem;

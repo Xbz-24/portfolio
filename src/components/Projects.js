@@ -1,6 +1,9 @@
 import React from 'react';
 import project1jpg from '../aca.jpg';
 import mathy from "../mandelbrot.jpeg"
+import blogger from "../download.png"
+import epa from "../epa.png"
+import manager from "../manager.jpeg"
 const Projects = () => {
   return (
     <div className="projects-container" id="projects">
@@ -14,7 +17,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project">
-        <img src="project-image.jpg" alt="Project" />
+        <img src={blogger} alt="Project" />
         <h3>Blog</h3>
         <p>Project description</p>
         <div className="project-links">
@@ -30,7 +33,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project">
-        <img src="project-image.jpg" alt="Project" />
+        <img src={epa} alt="Project" />
         <h3>Anime Site</h3>
         <p>Project description</p>
         <div className="project-links">
@@ -38,9 +41,9 @@ const Projects = () => {
         </div>
       </div>
       <div className="project">
-        <img src="project-image.jpg" alt="Project" />
-        <h3>desktop application</h3>
-        <p>using react native</p>
+        <img src={manager} alt="Project" />
+        <h3>Password Manager</h3>
+        <p>desktop application using react native</p>
         <div className="project-links">
           <a href="project-link">View Project</a>
         </div>
