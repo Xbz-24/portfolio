@@ -12,6 +12,44 @@ const Projects = () => {
         <div className="project-links">
           <a href="project-link">View Project</a>
         </div>
+        
+      </div>
+
+      <div className="project">
+        <img src="project-image.jpg" alt="Project" />
+        <h3>Project Name</h3>
+        <p>Project description</p>
+        <div className="project-links">
+          <a href="project-link">View Project</a>
+        </div>
+        
+      </div>
+      <div className="project">
+        <img src="project-image.jpg" alt="Project" />
+        <h3>Project Name</h3>
+        <p>Project description</p>
+        <div className="project-links">
+          <a href="project-link">View Project</a>
+        </div>
+        
+      </div>
+      <div className="project">
+        <img src="project-image.jpg" alt="Project" />
+        <h3>Project Name</h3>
+        <p>Project description</p>
+        <div className="project-links">
+          <a href="project-link">View Project</a>
+        </div>
+        
+      </div>
+      <div className="project">
+        <img src="project-image.jpg" alt="Project" />
+        <h3>Project Name</h3>
+        <p>Project description</p>
+        <div className="project-links">
+          <a href="project-link">View Project</a>
+        </div>
+        
       </div>
     </div>
   );
