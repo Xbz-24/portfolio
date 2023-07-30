@@ -22,11 +22,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #5b46b0;
+    background-color: #dad5ef;
 }
 header {
     display: flex;
-    background-color: #282c34;
+    background-color: #a5bae5;
     flex-direction: column;
     align-items: flex-start;
 
