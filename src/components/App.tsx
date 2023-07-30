@@ -29,9 +29,12 @@ const App: FC = () => {
           <div className="about-container">
             <About />
           </div>
-          <div className="github-thing-calendar">
-            <GitHubCalendar username={githubUsername} theme={minimalTheme} />
+          <div className="calendar-container">
+            <div className="github-thing-calendar">
+              <GitHubCalendar username={githubUsername} theme={minimalTheme} />
+            </div>
           </div>
+          
         </section>
         <h1 className="h1-projects-projects">Projects</h1>
         <Projects />

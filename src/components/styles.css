@@ -1,10 +1,10 @@
 :root {
     --primary-color: #358682;
-    --secondary-color: #E96479;
+    --secondary-color: #b9394c;
     --white-color: #F5E9CF;
-    --background-color: hsl(0, 14%, 39%);
+    --background-color: #b65e6ab6;
     --secondary-bg-color: #4D455D;
-    --calendar-bg-color: #B2FFFF;
+    --calendar-bg-color: #358682
 }
 body {
     font-family: Arial, sans-serif;
@@ -52,6 +52,7 @@ nav li a:hover {
     text-align: left;
     padding-left: 1rem;
     margin-left: 2rem;
+    margin-bottom: 5%;
 }
 .about-container h2,
 .contact-container h2,
@@ -59,7 +60,7 @@ nav li a:hover {
     font-size: 2.5em;
     margin-bottom: 1rem;
     padding-top: 0;
-    margin-top: 0;
+    margin-top: 5%;
 }
 .about-container p,
 .contact-container label {
@@ -156,7 +157,24 @@ nav li a:hover {
     border-radius: 4px;
     cursor: pointer;
 }
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    /* adjust as needed */
+    background-image: linear-gradient(to right, #358682, #E96479);
+    /* Replace with your desired gradient or image */
+    background-size: cover;
+    border-radius: 10px;
+    /* If you want rounded corners for the background */
+}
+
 .github-thing-calendar {
+    width: max-content;
+    margin-top: 1%;
+    height: 170%;
+    background-size: cover;
     background-color: var(--calendar-bg-color);
     display: flex;
     justify-content: center;
