@@ -22,7 +22,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #6c4617;
+    background-color: #5b46b0;
 }
 header {
     display: flex;
@@ -79,13 +79,13 @@ header nav ul li a:hover {
     padding: 1rem;
     border-radius: 8px;
 }
-
+/*
 .second-project-img {
 
     min-width: 200px !important;
     min-height: 100px;
 }
-
+*/
 .project img {
     max-width: 100%;
     width: 330px;
