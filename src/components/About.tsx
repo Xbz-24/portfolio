@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { FC } from 'react';
 
-const About = () => {
+const About: FC = () => {
     return (
         <div className="about-container-component">
             <h2>About me</h2>
