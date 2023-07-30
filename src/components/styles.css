@@ -80,8 +80,17 @@ header nav ul li a:hover {
     border-radius: 8px;
 }
 
+.second-project-img {
+
+    min-width: 200px !important;
+    min-height: 100px;
+}
+
 .project img {
-    width: 100%;
+    max-width: 100%;
+    width: 330px;
+    height:320px;
+    /* width: 100%;*/
     border-radius: 4px;
 }
 

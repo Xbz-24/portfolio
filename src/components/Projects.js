@@ -7,6 +7,7 @@ import manager from "../manager.jpeg"
 const p1  = "https://github.com/Xbz-24/chess-app";
 const p1_2  = "https://fabulous-kitsune-5c3a21.netlify.app/";
 const blog = "https://github.com/Xbz-24/blog";
+const blog2 = "https://admirable-scone-18865e.netlify.app";
 const mandel1 = "https://github.com/Xbz-24/mandelbrot-plot";
 
 const Projects = () => {
@@ -23,12 +24,12 @@ const Projects = () => {
         </div>
       </div>
       <div className="project">
-        <img src={blogger} alt="Project" />
+        <img src={blogger} alt="Project" className="second-project-img" />
         <h3>Blog</h3>
         <p>Creation of a CRUD for holding blog posts</p>
         <div className="project-links">
           <a href={blog}>View Project</a>
-          <a href={blog}>View Live</a>
+          <a href={blog2}>View Live</a>
         </div>
       </div>
       <div className="project">
