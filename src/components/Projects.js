@@ -4,6 +4,7 @@ import mathy from "../mandelbrot.jpeg"
 import blogger from "../download.png"
 import epa from "../epa.png"
 import manager from "../manager.jpeg"
+const p1  = "https://fabulous-kitsune-5c3a21.netlify.app/";
 const Projects = () => {
   return (
     <div className="projects-container" id="projects">
@@ -13,7 +14,7 @@ const Projects = () => {
         <h3>Chess</h3>
         <p>Webapp created in JS</p>
         <div className="project-links">
-          <a href="project-link">View Project</a>
+          <a href={p1}>View Project</a>
         </div>
       </div>
       <div className="project">
