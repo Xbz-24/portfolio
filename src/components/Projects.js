@@ -44,7 +44,7 @@ const Projects = () => {
       <div className="project">
         <img src={epa} alt="Project" />
         <h3>Anime Site</h3>
-        <p>Project description</p>
+        <p>watching anime from the commodity of your home</p>
         <div className="project-links">
           <a href="project-link">View Project</a>
           <a href={null}>View Live</a>
