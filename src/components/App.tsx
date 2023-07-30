@@ -25,10 +25,12 @@ const App: FC = () => {
             <div className="profile-picture">
               <img src={ProfilePicture} alt="Profile" />
             </div>
-            <GitHubCalendar username={githubUsername} theme={minimalTheme} />
           </div>
           <div className="about-container">
             <About />
+          </div>
+          <div className="github-thing-calendar">
+            <GitHubCalendar username={githubUsername} theme={minimalTheme} />
           </div>
         </section>
         <h1 className="h1-projects-projects">Projects</h1>

@@ -156,6 +156,9 @@ nav li a:hover {
     border-radius: 4px;
     cursor: pointer;
 }
-.react-github-calendar{
+.github-thing-calendar {
     background-color: var(--calendar-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
