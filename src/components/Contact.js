@@ -4,6 +4,8 @@ const Contact = () => {
   return (
     <div className="contact-container" id="contact">
       <h2>Contact Me</h2>
+      <p>You can reach me on Discord: xbz#9077</p>
+      <p>My GitHub: <a href="https://github.com/Xbz-24"></a>https://github.com/Xbz-24</p>
       <form>
         <label>Name:</label>
         <input type="text" />

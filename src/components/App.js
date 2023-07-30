@@ -21,6 +21,7 @@ const App = () => {
             <About /> 
           </div>
         </section>
+        <h1 className = "h1-projects-projects">Projects</h1>
         <Projects />
         <Contact />
       </main>

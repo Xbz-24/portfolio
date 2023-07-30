@@ -13,7 +13,6 @@ const mandel1 = "https://github.com/Xbz-24/mandelbrot-plot";
 const Projects = () => {
   return (
     <div className="projects-container" id="projects">
-      <h2>Projects</h2>
       <div className="project">
         <img src={project1jpg} alt="aca" />
         <h3>Chess</h3>

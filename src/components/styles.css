@@ -63,12 +63,17 @@ header nav ul li a:hover {
 .about-container p {
     font-size: 1.2rem;
 }
+.h1-projects-projects{
+    padding-left: 1rem;
+    margin-left: 32px ;
+}
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     padding: 2rem;
-    margin-left: 32px;
+    /*padding-left: 3rem;*/
+    /*margin-left: 0;*/
 }
 .main{
     text-align: left;
