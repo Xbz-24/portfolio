@@ -9,7 +9,7 @@ import manager from "../manager.jpeg";
 const p1  = "https://github.com/Xbz-24/chess-app";
 const p1_2  = "https://fabulous-kitsune-5c3a21.netlify.app/";
 const blog = "https://github.com/Xbz-24/blog";
-const blog2 = "https://admirable-scone-18865e.netlify.app";
+const blog2 = "https://blog-2e5.pages.dev/";
 const mandel1 = "https://github.com/Xbz-24/mandelbrot-plot";
 
 interface Project {
